@@ -1,0 +1,6 @@
+print('Sua frase será anilisada para encontrar a letra "A" ')
+frase = str(input('digite uma frase : ')).upper().strip()
+print('analizando a sua frase...')
+print('A letra "A" aparece {} vezes na frase.'.format(frase.count('A')+1))
+print('A letra "A" aparece pela primeira vez na posição {}.'.format(frase.find('A')+1))
+print('A ultima letra "A" aparece na posição {}.'.format(frase.rfind('A')+1))
